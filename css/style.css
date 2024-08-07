@@ -106,7 +106,7 @@ a:hover {
   font-size: 36px;
   line-height: calc(42 / 36);
 }
-.position-element {
+.example-item-wrapp-text {
   font-weight: 700;
   font-size: 14;
   line-height: calc(16/14);
@@ -339,7 +339,7 @@ a:hover {
   width: 370px; 
   height: 294px; 
 }
-.position {
+.examples-item-wrapp {
   display: flex;
   position: relative;
 }
@@ -349,12 +349,16 @@ a:hover {
   left: 107px;
 } */
 
-.position-element {
+.example-item-wrapp-text {
   position: absolute;
-  bottom: 27px;
+  bottom: 0;
   background-color: rgba(47, 48, 58, 0.8); /* Синій колір з прозорістю 50% */
-  width: 360px;
-  height: 100px;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 100px; */
   /* text-align: center; */
   /* align-items: center; */
 }
